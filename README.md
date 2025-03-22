@@ -1,4 +1,5 @@
 # Gráfico de Barras con D3.js
+![imagen](https://github.com/user-attachments/assets/965e4c71-4972-4ef7-b045-4f0e7053eb99)
 
 Este proyecto implementa la solución para el punto 5 de la prueba técnica "Graficando con D3", creando una aplicación frontend que visualiza datos numéricos en un gráfico de barras usando D3.js y JavaScript vanilla.
 
