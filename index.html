@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3.js Bar Chart</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Gráfico de Barras con D3.js</h1>
+        
+        <div class="input-section">
+            <label for="sourceData">Source Data:</label>
+            <input type="text" id="sourceData" placeholder="Ingrese números enteros separados por coma (ej: 5,10,15,20,25)">
+            <div id="error" class="error">Por favor, ingrese solo números enteros separados por comas.</div>
+            <button id="updateData">Update Data</button>
+        </div>
+        
+        <div class="chart-container" id="chart"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
